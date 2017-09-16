@@ -8,8 +8,7 @@ public class Sender {
 	public static void main(String[] args) throws Exception {
 		String uri = System.getenv("CLOUDAMQP_URL");
 		if (uri == null)
-			uri = "amqo://user:password@host.com/local";
-			// configurar cloud https://customer.cloudamqp.com/instance
+			uri = "amqp://gfwtijxu:TBhL908few0bSN0u-x3Km0m4kiamipwa@rhino.rmq.cloudamqp.com/gfwtijxu";
 
 		ConnectionFactory factory = new ConnectionFactory();
 		factory.setUri(uri);
