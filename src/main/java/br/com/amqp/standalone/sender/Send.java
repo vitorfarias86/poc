@@ -1,4 +1,4 @@
-package br.com.amqp.sender;
+package br.com.amqp.standalone.sender;
 
 import java.util.concurrent.TimeoutException;
 
